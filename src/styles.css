@@ -1,0 +1,147 @@
+/* styles.css */
+.body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.header {
+  background-color: #1b0202;
+  color: #0c0202;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 0px 0px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center; /* Center the content horizontally */
+  align-items: center; /* Center the content vertically */
+}
+.header img {
+  width: 105px; /* Adjust the width of the logo as needed */
+  height: auto;
+  object-fit: fill;
+  margin-right: 10px; /* Add some spacing between logo and text */
+}
+
+.logo-and-heading {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.logo {
+  width: 50px; /* Adjust the width of the logo as needed */
+  height: auto;
+  margin-right: 20px; /* Add some spacing between logo and text */
+}
+
+.Mission.MARS {
+  font-size: 36px;
+  font-family: 'Montserrat';
+  font-weight: bold;
+  color: #ff0606;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.0);
+  flex-grow: 1; /* Allow the heading to take the remaining space */
+}
+
+.body {
+  padding-top: 80px;
+}
+
+.sidebar {
+  width: 200px;
+  background-color: #ffffff;
+  color: #ff0000;
+  padding: 20px;
+  position: fixed;
+  top: 100px;
+  bottom: 0;
+  overflow-y: auto;
+}
+/* Assuming your existing styles for buttons are in the CSS file */
+
+.side-panel button {
+  display: block;
+  width: 100%;
+  background-color: #ff0000; /* Change the background color as needed */
+  color: #ffffff; /* Set the text color */
+  border: none;
+  margin-bottom: 10px;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  text-align: center;
+  border-radius: 16px;
+}
+
+.side-panel button:hover {
+  background-color: #ffffff;
+  color: #ff0000;
+  /* Add any hover styles as needed */
+}
+
+.side-panel p {
+  font-size: 20px; /* Adjust the font size as needed */
+  font-weight: bold;
+}
+.side-panel h2 {
+      font-size: 24px; /* Adjust the font size as needed */
+      word-wrap: break-word; /* This property enables automatic word wrapping */
+      width: 100%;
+      font-weight: bold;
+
+      /* Add any other styles you want for the heading and paragraph */
+  }
+
+.task-actions button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #ff0606;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  text-align: center;
+}
+
+.task-form-container button {
+  /* Your button styles here */
+  background-color: #ff0606;
+  color: #ffffff;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  text-align: center;
+}
+
+.task-form-container button:hover {
+  background-color: #ffffff;
+  color: #ff0606;
+  /* Add any hover styles as needed */
+}
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 100px; /* Adjust as needed */
+}
+
+/* Add this style to your existing CSS or create a new CSS file */
+
+.centered-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.task-actions button:hover {
+  background-color: #ffffff;
+  color: #ff0606;
+}

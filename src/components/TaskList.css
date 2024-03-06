@@ -1,0 +1,86 @@
+/* TaskList.css */
+
+.task-list-container {
+  margin-top: 20px;
+  text-align: center;
+}
+
+/* Apply styles to table, th, td */
+table {
+  width: 100%; /* Adjusted width */
+  border-collapse: collapse;
+  margin-top: 10px; /* Adjusted margin-top */
+}
+
+/* Apply styles to th, td */
+th, td {
+  border: 1px solid #000000;
+  padding: 15px; /* Adjusted padding */
+  text-align: center;
+}
+
+/* Apply styles to th */
+th {
+  background-color: #000000;
+  color: red;
+  padding: 20px; /* Adjusted padding */
+}
+
+/* Updated button styles for View Details and Delete */
+.button-container button.view-details,
+.button-container button.delete {
+  padding: 8px 12px;
+  cursor: pointer;
+  background-color: #3498db; /* Updated color for View Details */
+  color: white; /* Changed text color to white */
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px; /* Added margin-right */
+}
+
+/* Apply styles to checkbox */
+.task-list-container input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+.button {
+  display: block;
+  width: 100%;
+  background-color: #ff0000; /* Change the background color as needed */
+  color: #ffffff; /* Set the text color */
+  border: none;
+  margin-bottom: 5px;
+  padding: 5px;
+  cursor: pointer;
+  font-size: 12px;
+  text-align: center;
+  border-radius: 16px;
+}
+
+.delete-button {
+  display: block;
+  width: 100%;
+  background-color: #ff0000; /* Change the background color as needed */
+  color: #ffffff; /* Set the text color */
+  border: none;
+  margin-bottom: 10px;
+  padding: 5px;
+  cursor: pointer;
+  font-size: 12px;
+  text-align: center;
+  border-radius: 16px;
+}
+
+.update-button {
+  display: block;
+  width: 100%;
+  background-color: #ff0000; /* Change the background color as needed */
+  color: #ffffff; /* Set the text color */
+  border: none;
+  margin-bottom: 10px;
+  padding: 5px;
+  cursor: pointer;
+  font-size: 12px;
+  text-align: center;
+  border-radius: 16px;
+}
